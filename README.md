@@ -1,2 +1,2 @@
 # DSA
-This contain my dsa questions.
+This contain my dsa questions in python.
