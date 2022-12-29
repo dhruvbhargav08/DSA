@@ -8,7 +8,7 @@ def peek(stack):
         if len(stack) > 0:
             return stack[-1]
         return None
-def preorder_iterative_traversal(root):
+def postorder_iterative_traversal(root):
     stack=[]
     while True:
         while root:
@@ -33,6 +33,6 @@ root.left.left=Node(4)
 root.left.right=Node(5)
 root.right.left=Node(6)
 root.right.right=Node(7)
-preorder_iterative_traversal(root)
+postorder_iterative_traversal(root)
 
     
