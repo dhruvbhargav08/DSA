@@ -37,4 +37,5 @@ if __name__ == '__main__':
         print(str(ans[0])+" "+str(ans[1]))
         tc=tc-1
 # } Driver Code Ends
+#Question link
 # https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1?page=1&difficulty[]=1&status[]=solved&sortBy=submissions
