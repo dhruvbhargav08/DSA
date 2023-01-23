@@ -1,4 +1,11 @@
 #This is from Geeks for Geeks.Question link at last
+# Quick Sort is a Divide and Conquer algorithm. 
+# It picks an element as a pivot and partitions the given array around the picked pivot.
+# Given an array arr[], its starting position is low (the index of the array) and its ending position is high(the index of the array).
+
+Note: The low and high are inclusive.
+
+Implement the partition() and quickSort() functions to sort the array.
 #User function Template for python3
 
 class Solution:
