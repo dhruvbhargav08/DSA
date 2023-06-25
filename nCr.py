@@ -5,25 +5,23 @@
 
 class Solution:
     def nCr(self, n, r):
-        # code here
-        def helper():
-            pass
-        temp=n-r
-        if temp==0:
-            return 1
-        elif temp<0:
+        if r>n:
             return 0
-        fact_n=1
-        fact_r=1
-        fact_temp=1
+        if r==n:
+            return 1
+        prod=1
+        listt=[0]*n
         for i in range (1,n+1):
-            fact_n*=i
-        for i in range (1,r+1):
-            fact_r*=i
-        for i in range (1,temp+1):
-            fact_temp*=i
-        res=fact_n//(fact_temp*fact_r)
-        return int(res%((10**9+7)))
+            prod*=i
+            listt[i-1]=prod
+        n1=listt[n-1]
+        n2=listt[n-r-1]
+        n3=listt[r-1]
+        temp=n2*n3
+        mod=1000000007
+        res=n1//temp
+        res=res%mod
+        return res
         
 
 #{ 
