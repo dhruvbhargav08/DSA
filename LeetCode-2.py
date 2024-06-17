@@ -19,9 +19,6 @@
 # 0 <= Node.val <= 9
 # It is guaranteed that the list represents a number that does not have leading zeros.
 
-# Question Link:
-# https://leetcode.com/problems/add-two-numbers/description
-
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
